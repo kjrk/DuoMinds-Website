@@ -14,15 +14,15 @@ body{
 }
 
 .navbar {
-
+    background-color: white;
     padding-left: 300px;
     font-size: 20px;
     position:auto;
     top: 0;
     width: 100%; /* Full width */
    
-
 }
+
 .navbar-brand {
     color:black;
     font-size:26px;
@@ -36,21 +36,45 @@ body{
     padding-left: 40px;
 }
 
-h1 {
-    
-}
-
 #container1 {
-    margin-top:20px;
+    margin-top:80px;
     width:auto;
     height:600px;
 }
 
-#container2 {
-    margin-top:20px;
-    height:600px;
+.hero-text > h1 {
+    font-weight: bold;
+    
 }
 
+#container2 {
+    margin-top:20px;
+    height:50px;
+    background-color:black;
+    padding-top: 13px;
+   
+    
+}
+#container2 > h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
+
+#container3 {
+    padding-top: 30px;
+    height: 800px;
+}
+#pic1 {
+    width: 60%;
+
+}
+
+#pic2 {
+    width: 60%;
+    
+}
 
 /* The hero image */
 .hero-image {
