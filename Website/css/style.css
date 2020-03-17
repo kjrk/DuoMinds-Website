@@ -75,13 +75,24 @@ body{
     width: 60%;
     
 }
+.col > h2 {
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#container4 {
+    height: 675px;
+    padding-top: 50px;
+}
 
 /* The hero image */
 .hero-image {
   
 
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("banner-grass.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("banner-lily.jpg");
 
   /* Set a specific height */
   height: 100%;
